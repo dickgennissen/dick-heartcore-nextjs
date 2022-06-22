@@ -1,0 +1,81 @@
+.content {
+    display: flex;
+    max-width: 900px;
+    margin: 100px auto;
+  }
+  
+  .title {
+    font-family: 'Eczar', serif;
+    font-size: 70px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 1;
+    margin: 0 0 20px 0;
+  }
+  
+  .subtitle {
+    font-family: 'Eczar', serif;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 1;
+    margin: 0 0 20px 0;
+  }
+  
+  .biography {
+    color: #fff;
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .biography p {
+    margin: 0 0 20px 0;
+  }
+  .image {
+    flex: 1;
+    margin: 100px 0 30px 30px;
+  }
+  .image img {
+    height: auto;
+    max-width: 100%;
+  }
+  .imageCredits {
+    color: #999;
+    font-size: 13px;
+    margin: 5px 0;
+  }
+  
+  
+  .goBackButton {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: color .3s ease-in;
+  }
+  
+  .goBackButton:hover {
+    color: rgb(58, 250, 144);
+  }
+  
+  .table {
+    width: 100%;
+  }
+  
+  .table thead th {
+    text-align: left;
+  }
+  
+  .table tbody td {
+    border-top: 1px dashed rgba(0, 226, 101, .5);
+    padding: 10px 0;
+  }
